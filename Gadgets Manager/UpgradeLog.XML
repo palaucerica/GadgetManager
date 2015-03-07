@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Gadgets Manager">
+</Property><Property Name="Solution File" Value="C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager.sln">
+</Property><Property Name="User Options File" Value="C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager.suo">
+</Property><Property Name="Date" Value="martes, 04 de enero de 2011">
+</Property><Property Name="Time" Value="2:10">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Gadgets Manager.sln" Description="File successfully backed up as C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Gadgets Manager.suo" Description="File successfully backed up as C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager.suo.old">
+</Event><Event ErrorLevel="0" Project="Gadgets Manager" Source="Gadgets Manager\Gadgets Manager.vcproj" Description="Converting project file 'C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager\Gadgets Manager.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Gadgets Manager" Source="Gadgets Manager\Gadgets Manager.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Gadgets Manager" Source="Gadgets Manager\Gadgets Manager.vcproj" Description="Done converting to new project file 'C:\Users\ahmed\Desktop\OiD\Gadgets Manager\Gadgets Manager\Gadgets Manager.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Gadgets Manager" Source="Gadgets Manager\Gadgets Manager.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Gadgets Manager.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Gadgets Manager.sln" Description="Converted">
+</Event></UpgradeLog>
