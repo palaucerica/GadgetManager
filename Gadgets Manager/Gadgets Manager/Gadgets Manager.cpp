@@ -168,10 +168,10 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    //GadgetsItem tt;
    //gadgets.push_back(tt);
 
-   bmp1 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP5));
+   //bmp1 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP5));
    bmp2 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP6));
    bmp3 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP7));
-   bmp4 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP8));
+   //bmp4 = LoadBitmap(hInst,MAKEINTRESOURCE(IDB_BITMAP8));
    
 	GetWindowRect( GetDesktopWindow() , & recta);
 	posgad.x=recta.right-250;
@@ -514,10 +514,10 @@ BOOL CALLBACK DlgProc1(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam){
 		FillRect(dc,&rect,br);
 		EndPaint(hDlg,&p);
 		//buttons = GetDlgItem(hDlg,IDC_BUTTON2);
-		SendDlgItemMessage(hDlg,IDC_BUTTON2,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp1);
+		//SendDlgItemMessage(hDlg,IDC_BUTTON2,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp1);
 		SendDlgItemMessage(hDlg,IDC_BUTTON3,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp2);
 		SendDlgItemMessage(hDlg,IDC_BUTTON4,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp3);
-		SendDlgItemMessage(hDlg,IDC_BUTTON5,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp4);
+		//SendDlgItemMessage(hDlg,IDC_BUTTON5,BM_SETIMAGE ,IMAGE_BITMAP,(LPARAM)bmp4);
 		break;
 	case WM_INITDIALOG:
 		DialogVisible = true;
@@ -549,19 +549,18 @@ BOOL CALLBACK DlgProc1(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam){
 				AddGadget(ofn.lpstrFile);
 
 			break;
-		case IDC_BUTTON2:
+		/*case IDC_BUTTON2:
 			AddGadget(L"SlideShow_Gadget.dll");
-			break;
+			break;*/
 		case IDC_BUTTON3:
 			AddGadget(L"MiGadgetPuzzle.dll");
 			break;
 		case IDC_BUTTON4:
 			AddGadget(L"MiGadgetTicTacToe.dll");
 			break;
-		case IDC_BUTTON5:
+		/*case IDC_BUTTON5:
 			AddGadget(L"CPU_Gadget.dll");
-			break;
-
+			break;*/
 		}
 		break;
 	}
