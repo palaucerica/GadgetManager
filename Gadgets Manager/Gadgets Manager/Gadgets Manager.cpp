@@ -258,7 +258,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	PAINTSTRUCT ps;
 	HDC hdc;
 	static NOTIFYICONDATA nid;
-	WCHAR * msg = L"Haga click derecho para ver opciones";
+	WCHAR * msg = L"Right click to see options";
 	static HMENU hMenuExit ;
 	POINT p;
 	MENUITEMINFO meninf;
